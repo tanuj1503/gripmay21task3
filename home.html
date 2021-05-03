@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Integration</title>
+    <!--css files-->
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="container">
+        <!--heading-->
+        <h3>SPARK FOUNDATION</h3>
+        <!--Navigation bar-->
+        <div class="nav">
+            <ul>
+                <li class='active'>Home</li>
+                <li>About</li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="content1">
+            <span class="content2"></span>
+        </div>
+        <!--Quote-->
+        <div class="quote">
+            <p>It is not joy that make us GRATEFUL,
+                it is gratitude that make us JOYFUL.
+            </p>
+        </div>
+        <!--donation logo-->
+        <!-- <form action="payment.php" method="POST">
+            <input type="submit" value="Donate Now">
+        </form> -->
+
+
+        <form class="form">
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H6AGv3CXWPLrld" async> 
+            </script>
+         </form>
+
+
+        <!--Illustration-->
+        <div class="illustration">
+            <img src="./donation3.jpg" alt="">
+        </div>
+        <!--info-->
+        <div class="task"><p>Tanuj Biswas --- GRIPMAY21 TASK #3</p></div>
+
+        <a href="index.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+    </section>
+</body>
+</html>

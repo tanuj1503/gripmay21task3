@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: absolute;
+    width: 96%;
+    height: 92%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.container h3{
+    position: absolute;
+    left: 3rem;
+    top: 0.4rem;
+    color: white;
+    background-color: chocolate;
+    padding: 0.6rem 1rem;
+    border-radius: 34px;
+}
+.nav{
+    position: absolute;
+    left: 50%;
+    top: 0.7rem;
+    transform: translateX(-60%);
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    font-size: 18px;
+    margin-right: 3rem;
+    border: 1px solid #ffa500;
+    padding: 0.4rem 2rem;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav ul li:hover{
+    border: 3px solid greenyellow;
+}
+.nav ul li.active{
+    border: 3px solid greenyellow;
+}
+.content1{
+    position: relative;
+    background-color: orange;
+    width: 60%;
+    height: 100%;
+    background-size: auto;
+    background-position: center;
+    clip-path: circle(77.2% at 100% 50%);
+    float: right;
+}
+.content2{
+    position: relative;
+    background-image: url("./donation2.jpg");
+    width: 80%;
+    height: 100%;
+    background-size: auto;
+    background-position: center;
+    float: right;
+    clip-path: circle(77.2% at 100% 50%);
+}
+.quote{
+    position: absolute;
+    width: 650px;
+    top: 48%;
+    transform: translateY(-59%);
+    left: 2.8rem;
+}
+.quote p{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: left;
+}
+form{
+    margin-top: 28%;
+    margin-left: 3rem;
+}
+
+.illustration{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 69%;
+    left: 1rem;
+}
+.task{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-35%);
+    font-size: 15px;
+}
+
+a i.fa{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    color: black;
+    font-size: 2rem;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    to{
+        transform: translateY(0rem);
+    }
+    from{
+        transform: translateY(1rem);
+    }
+}

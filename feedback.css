@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    background-color: blueviolet;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+}
+label{
+    text-align: left;
+}
+input{
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    outline: none;
+}
+td{
+    text-align: right;
+}
+.back{
+    position: absolute;
+    bottom: 4.6rem;
+    color: red;
+}
+.back i{
+    margin: 0.3rem;
+}
+.back a{
+    color: white;
+    text-decoration: none;
+}
